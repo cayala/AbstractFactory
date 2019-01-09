@@ -1,0 +1,4 @@
+#ignore the binaries like the bin and obj folders
+.vs/
+AbstractFactory/bin/
+AbstractFactory/obj/
