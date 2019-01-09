@@ -8,8 +8,8 @@ namespace AbstractFactory.Enums
 {
     public enum PepsiSelection
     {
-        Pepsi = 0,
-        SierraMist = 1,
-        SevenUp = 2
+        Pepsi = 1,
+        SierraMist = 2,
+        SevenUp = 3
     }
 }
