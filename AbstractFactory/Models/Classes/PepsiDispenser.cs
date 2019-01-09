@@ -12,12 +12,16 @@ namespace AbstractFactory.Models.Classes
         public void Dispense(string sodaChoice)
         {
             Console.WriteLine($"Dispensing {sodaChoice} now...");
+            Console.ForegroundColor = ConsoleColor.Black;
             Console.BackgroundColor = ConsoleColor.Red;
-            Console.WriteLine(Environment.NewLine);
+            Console.WriteLine("Fizz...");
             Console.BackgroundColor = ConsoleColor.Yellow;
             Console.WriteLine(Environment.NewLine);
+            Console.WriteLine("Fizz...");
             Console.BackgroundColor = ConsoleColor.Green;
             Console.WriteLine(Environment.NewLine);
+            Console.WriteLine("Fizz...");
+            Console.ResetColor();
             Console.WriteLine("Ding!");
             Console.WriteLine($"Enjoy your refreshing {sodaChoice}");
         }

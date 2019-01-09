@@ -43,15 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enums\CocaColaSelection.cs" />
+    <Compile Include="Enums\PepsiSelection.cs" />
+    <Compile Include="Factories\Classes\CocaColaMachine.cs" />
+    <Compile Include="Factories\Classes\PepsiMachine.cs" />
+    <Compile Include="Factories\Contracts\ISodaMachine.cs" />
+    <Compile Include="Models\Classes\CocaColaDispenser.cs" />
+    <Compile Include="Models\Classes\PepsiDispenser.cs" />
+    <Compile Include="Models\Contracts\ISoda.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Factories\" />
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

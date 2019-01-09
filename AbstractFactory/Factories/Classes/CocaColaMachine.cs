@@ -10,7 +10,7 @@ namespace AbstractFactory.Factories.Classes
 {
     public class CocaColaMachine : ISodaMachine
     {
-        public ISoda Dispense()
+        public ISoda LoadSelection()
         {
             return new CocaColaDispenser();
         }

@@ -8,6 +8,6 @@ namespace AbstractFactory.Models.Contracts
 {
     public interface ISodaMachine
     {
-        ISoda Dispense();
+        ISoda LoadSelection();
     }
 }
